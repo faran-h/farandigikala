@@ -1,0 +1,70 @@
+.dastebandi {
+    width: 100%;
+    height: 409px;
+    margin-top: 35px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .dastebandi-center {
+      width: 87%;
+      height: inherit;
+      display: block;
+      padding: 0 80px;
+
+
+
+      .dastebandi__first {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+
+        h3 {
+          width: auto;
+          height: 44px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: var(--fontfamily);
+          font-size: 20px;
+          font-weight: normal;
+        }
+
+      }
+      .dastebandi__second {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        div {
+          width: 140px;
+          height: 160px;
+          display: flex;
+          flex-flow: column wrap;
+          justify-content: center;
+          align-items: center;
+
+          h5 {
+            font-family: var(--fontfamily);
+            font-size: 12px;
+            margin-top: 17px;
+
+          }
+
+          img {
+            width: 100px;
+            height: 100px;
+            position: relative;
+            overflow: hidden;
+          }
+        }
+      }
+    }
+}

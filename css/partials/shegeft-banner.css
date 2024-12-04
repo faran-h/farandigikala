@@ -1,0 +1,8 @@
+.shegeft-banner{
+    width: 100%;
+    background-color: #EF3D52;
+    height: 64px;
+    background-image: url(../../images/shegeftangiz-banner/header.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}

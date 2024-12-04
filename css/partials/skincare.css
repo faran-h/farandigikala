@@ -1,0 +1,20 @@
+.skincare {
+    width: 100%;
+    height: 168px;
+    margin-top: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    .skincare-center {
+      width: 87%;
+      height: inherit;
+      img {
+        width: 100%;
+        height: 168px;
+        object-fit: cover;
+        overflow: hidden;
+        border-radius: var(--borderradiusM);
+      }
+    }
+  }

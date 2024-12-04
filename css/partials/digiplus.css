@@ -1,0 +1,95 @@
+.digiplus {
+    width: 100%;
+    height: 110px;
+    margin-top: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .digiplus__main {
+      width: 98%;
+      height: 110px;
+      border-radius: 12px;
+      background: url(../../images/digiplus-shegeft/digiplus-shegeft-right.svg) right center no-repeat,
+        url(../../images/digiplus-shegeft/digiplus-shegeft-left.svg) left center no-repeat,
+        linear-gradient(
+          34deg,
+          rgba(239, 238, 240, 1) 0%,
+          rgba(231, 218, 229, 1) 100%
+        );
+      display: flex;
+      flex-flow: row wrap;
+      .digiplus__right {
+        height: inherit;
+        width: 60%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
+        svg {
+          margin-right: 37px;
+        }
+      }
+      .digiplus__left {
+        height: inherit;
+        width: 40%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: flex-end;
+        .digiplus__left__top {
+          width: 249px;
+          height: 34px;
+          color: #b12ba4;
+          font-family: var(--fontfamily);
+          font-size: 16px;
+          font-weight: lighter;
+          column-gap: 5px;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          margin-top: 15px;
+          margin-left: 70px;
+          span {
+            padding-top: 5px;
+          }
+        }
+        .digiplus__left__bottom {
+          width: 249px;
+          height: 41px;
+          margin-left: 30px;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: flex-start;
+          column-gap: 9px;
+          .bottom__eins {
+            width: 40px;
+            height: 41px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-flow: column wrap;
+            background-color: #fff;
+            border-radius: 10px;
+            row-gap: 3px;
+            .eins {
+              font-size: 18px;
+              color: #941b80;
+            }
+            .zwei {
+              font-family: var(--fontfamily);
+              font-size: 6px;
+            }
+            .drei {
+              display: flex;
+              flex-flow: row-reverse wrap;
+              font-family: var(--fontfamily);
+              font-size: 12px;
+              column-gap: 5px;
+              color: #941b80;
+            }
+          }
+        }
+      }
+    }
+  }

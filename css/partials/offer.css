@@ -1,0 +1,24 @@
+.offer {
+    width: 100%;
+    height: 242px;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+
+    .offer-center {
+      width: 87%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      column-gap: 11px;
+      .offer-center-item {
+        .offer-center-item-image {
+          width: 322px;
+          height: 242px;
+          border-radius: var(--borderradiusM);
+          
+        }
+      }
+    }
+  }

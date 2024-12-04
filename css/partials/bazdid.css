@@ -1,0 +1,115 @@
+.bazdid {
+    width: 100%;
+    height: 417px;
+    margin-top: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    .bazdid-center {
+      width: 87%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      border: 1px solid #e0e0e2;
+      border-radius: var(--borderradiusM);
+      .bazdid-center-one {
+        width: 25%;
+        height: inherit;
+        display: flex;
+        flex-flow: column wrap;
+        row-gap: 10px;
+        align-items: center;
+        border-left: 1px solid #e0e0e2;
+        .first {
+          width: 100%;
+          height: auto;
+          padding-right: 22px;
+          margin-top: 15px;
+          display: flex;
+          flex-flow: column wrap;
+          row-gap: 5px;
+          h4 {
+            font-family: var(--fontfamily);
+            font-size: 16px;
+            font-weight: normal;
+          }
+          p {
+            font-family: var(--fontfamily);
+            font-size: 11px;
+            font-weight: normal;
+            opacity: 0.5;
+          }
+        }
+        .second {
+          width: 292px;
+          height: 146px;
+          display: flex;
+          flex-flow: row wrap;
+          row-gap: 5px;
+          .line {
+            width: 292px;
+            height: 0.5px;
+            background-color: #e0e0e2;
+            margin-bottom: -3px;
+          }
+          .second__one {
+            width: 145px;
+            height: 145px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            img {
+              width: 129px;
+              height: 129px;
+              object-fit: contain;
+            }
+          }
+        }
+        .third {
+          width: 292px;
+          height: 146px;
+          display: flex;
+          flex-flow: row wrap;
+          .third__one {
+            width: 145px;
+            height: 145px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+  
+            img {
+              width: 129px;
+              height: 129px;
+              object-fit: contain;
+            }
+          }
+        }
+        .forth {
+          width: auto;
+          height: auto;
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          margin-right: 120px;
+          a {
+            font-family: var(--fontfamily);
+            text-decoration: none;
+            font-size: 12px;
+            color: #19bfd3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            span {
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .left{
+    border-left: none !important;
+  }
